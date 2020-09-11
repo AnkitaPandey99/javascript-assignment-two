@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Question1</title>
+	</head>
+	<body>
+	<img src="https://cdn.britannica.com/88/137188-050-8C779D64/Boston-Public-Garden.jpg" width="200px" height="200px" id="image">
+	<button onclick="image1()">click for second image</button>
+	<button onclick="image2()">click for third image</button>
+	<button onclick="image3()">click for first image</button>
+	<script>
+	function image1(){
+    const ele = document.getElementById("image")
+    ele.src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/autumn-in-the-white-mountains-of-new-hampshire-royalty-free-image-841380450-1531931081.jpg";
+    }
+    function image2(){
+       const ele = document.getElementById("image")
+       ele.src="https://www.treehugger.com/thmb/jHonk6wtmf_O-CQ269dwOi86chc=/735x0/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2018__10__CrispAutumnDayWithMulticoloredLeavesFallingToGround-ec4a795f97e74ed5a01cad3fb2f23e56.jpg"
+    }
+	function image3(){
+	  const ele = document.getElementById("image")
+      ele.src="https://cdn.britannica.com/88/137188-050-8C779D64/Boston-Public-Garden.jpg"   
+	}
+	
+	</script>
+	</body>
+</html>
